@@ -4,9 +4,10 @@ from keras.models import Model
 from keras.optimizers import Adam
 from keras.applications.vgg16 import VGG16
 from keras.layers import *
-from keras.callbacks import ModelCheckpoint
+from keras.callbacks import ModelCheckpoint, EarlyStopping
 from keras import backend as K
 import tensorflow as tf
+from tensorflow.keras.backend import clear_session
 
 from tensorflow.compat.v1 import ConfigProto
 from tensorflow.compat.v1 import InteractiveSession
@@ -19,7 +20,7 @@ session = InteractiveSession(config=config)
 
 
 class UNet:
-    def __init__(self,img):
+    def __init__(self,img, learning_rate = 1e-4):
         img = np.array(img)
         self.input = Input(shape=(img.shape[0], img.shape[1], img.shape[2]))
         self.vgg16 = VGG16(input_tensor=self.input, include_top=False, weights = 'imagenet')
@@ -35,7 +36,7 @@ class UNet:
         self.c9 = self.AddUpsampleLayer(self.c8, self.c1, 64)
         self.outputs = Conv2D(1, (1, 1), activation='sigmoid')(self.c9)
         self.UNet = Model(inputs=self.input, outputs=self.outputs, name="UNet")
-        self.UNet.compile(optimizer=Adam(lr=1e-4), loss='binary_crossentropy', metrics = ['accuracy'])
+        self.UNet.compile(optimizer=Adam(lr=learning_rate), loss='binary_crossentropy', metrics = ['accuracy'])
         
 
     def AddUpsampleLayer(self, inLayer, concatLayer, inputSize, triple=False):

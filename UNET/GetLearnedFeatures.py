@@ -17,13 +17,18 @@ msks = np.array([as_float(imageio.imread(mpath)) for _, mpath in path_pairs])
 model = UNet(imgs[0])
 #model_checkpoint = ModelCheckpoint('unet.hdf5', monitor='loss',verbose=1, save_best_only=True)
 model.UNet.load_weights("unet.hdf5")
-p = np.array(imgs[0]).reshape((1,192,192,3))
-results = model.UNet.predict(p)>0.1
-results = results.reshape(192,192)
-plt.imshow(results, cmap='gray')
-plt.show()
-p = np.array(imgs[1]).reshape((1,192,192,3))
-results = model.UNet.predict(p)>0.5
-results = results.reshape(192,192)
-plt.imshow(results, cmap='gray')
+filters, biases = model.UNet.layers[1].get_weights()
+fig = plt.figure(figsize=(5,10))
+f_min, f_max = filters.min(), filters.max()
+filters = (filters - f_min) / (f_max - f_min)
+n_filters, ix = 6, 1
+fig.tight_layout()
+for i in range(n_filters):
+	f = filters[:, :, :, i]
+	for j in range(3):
+		ax = plt.subplot(n_filters, 3, ix)
+		ax.set_xticks([])
+		ax.set_yticks([])
+		plt.imshow(f[:, :, j], cmap='gray')
+		ix += 1
 plt.show()

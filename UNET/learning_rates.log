@@ -1,0 +1,426 @@
+DEBUG:root:100
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/tensorflow/python/ops/nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+DEBUG:root:default model -- test loss:0.03187463973881677, test accuracy:0.9928758144378662
+WARNING:tensorflow:From Run.py:50: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+DEBUG:root:default model -- test loss:0.15591501374728978, test accuracy:0.9488389492034912
+DEBUG:root:default model -- test loss:0.051264040870592, test accuracy:0.9830695390701294
+DEBUG:root:default model -- test loss:0.5585829019546509, test accuracy:0.7450053095817566
+DEBUG:root:default model -- test loss:0.02083004335872829, test accuracy:0.9953545331954956
+DEBUG:root:default model -- test loss:0.44797369092702866, test accuracy:0.8469407558441162
+DEBUG:root:0.001 default model - ave_accuracy:0.9186808168888092
+DEBUG:root:cleaned masks -- test loss:0.08526048995554447, test accuracy:0.9719882607460022
+DEBUG:root:cleaned masks -- test loss:0.7693444266915321, test accuracy:0.8385145664215088
+DEBUG:root:cleaned masks -- test loss:0.08923955238424242, test accuracy:0.9661899209022522
+DEBUG:root:cleaned masks -- test loss:0.07219971320591867, test accuracy:0.9704420566558838
+DEBUG:root:cleaned masks -- test loss:0.01851452433038503, test accuracy:0.9933132529258728
+DEBUG:root:cleaned masks -- test loss:0.5286618806421757, test accuracy:0.8507961630821228
+DEBUG:root:0.001 cleaned masks - ave_accuracy:0.9318740367889404
+DEBUG:root:augmented -- test loss:0.02145345334429294, test accuracy:0.9927334189414978
+DEBUG:root:augmented -- test loss:0.02004163758829236, test accuracy:0.9932963252067566
+DEBUG:root:100
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/tensorflow/python/ops/nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+DEBUG:root:default model -- test loss:0.10293514328077435, test accuracy:0.9530876874923706
+WARNING:tensorflow:From Run.py:50: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+DEBUG:root:100
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/tensorflow/python/ops/nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+DEBUG:root:default model -- test loss:0.03771153697744012, test accuracy:0.9863789677619934
+WARNING:tensorflow:From Run.py:51: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+DEBUG:root:100
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/tensorflow/python/ops/nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+DEBUG:root:default model -- test loss:0.0318851403426379, test accuracy:0.9915669560432434
+DEBUG:root:default model -- test loss:0.016547433158848435, test accuracy:0.9931979775428772
+DEBUG:root:default model -- test loss:0.05374689237214625, test accuracy:0.9778544306755066
+DEBUG:root:default model -- test loss:0.0724435499869287, test accuracy:0.9705810546875
+DEBUG:root:default model -- test loss:0.04110420204233378, test accuracy:0.98553466796875
+DEBUG:root:default model -- test loss:0.23983323946595192, test accuracy:0.8972947597503662
+DEBUG:root:0.001 default model - ave_accuracy:0.9693383077780405
+DEBUG:root:cleaned masks -- test loss:0.08513505198061466, test accuracy:0.9666951298713684
+DEBUG:root:cleaned masks -- test loss:0.029498540563508868, test accuracy:0.9886677861213684
+DEBUG:root:cleaned masks -- test loss:0.04862318770028651, test accuracy:0.9842326045036316
+DEBUG:root:cleaned masks -- test loss:0.020446548936888576, test accuracy:0.9918348789215088
+DEBUG:root:cleaned masks -- test loss:0.041961259325034916, test accuracy:0.9841139316558838
+DEBUG:root:cleaned masks -- test loss:0.22217865101993084, test accuracy:0.9288533329963684
+DEBUG:root:0.001 cleaned masks - ave_accuracy:0.9740662773450216
+DEBUG:root:augmented -- test loss:0.012969038216397166, test accuracy:0.9948933720588684
+DEBUG:root:augmented -- test loss:0.06096840905956924, test accuracy:0.9747178554534912
+DEBUG:root:augmented -- test loss:0.036635930999182165, test accuracy:0.9864162802696228
+DEBUG:root:augmented -- test loss:0.031885361415334046, test accuracy:0.9886440634727478
+DEBUG:root:augmented -- test loss:0.0235682389466092, test accuracy:0.9936048984527588
+DEBUG:root:augmented -- test loss:0.24396167136728764, test accuracy:0.9028049111366272
+DEBUG:root:0.001 augmented intense - ave_accuracy:0.9735135634740194
+DEBUG:root:augmented -- test loss:0.022224558400921524, test accuracy:0.9914652705192566
+DEBUG:root:augmented -- test loss:0.020131011260673404, test accuracy:0.9927605390548706
+DEBUG:root:augmented -- test loss:0.021666989021468908, test accuracy:0.9941948652267456
+DEBUG:root:augmented -- test loss:0.015972220397088677, test accuracy:0.9947306513786316
+DEBUG:root:augmented -- test loss:0.012707180227153003, test accuracy:0.9956190586090088
+DEBUG:root:augmented -- test loss:0.2206225786358118, test accuracy:0.9073588252067566
+DEBUG:root:0.001 augmented mild - ave_accuracy:0.9793548683325449
+DEBUG:root:default model -- test loss:0.01540640089660883, test accuracy:0.9940693974494934
+DEBUG:root:default model -- test loss:0.021880177198909223, test accuracy:0.9928656816482544
+DEBUG:root:default model -- test loss:0.021512615028768778, test accuracy:0.9924485683441162
+DEBUG:root:default model -- test loss:0.024716729763895273, test accuracy:0.9912922978401184
+DEBUG:root:default model -- test loss:0.023020073072984815, test accuracy:0.9921061396598816
+DEBUG:root:default model -- test loss:0.2165833879262209, test accuracy:0.9052395224571228
+DEBUG:root:0.0001 default model - ave_accuracy:0.9780036012331644
+DEBUG:root:cleaned masks -- test loss:0.018634128384292126, test accuracy:0.9933573603630066
+DEBUG:root:cleaned masks -- test loss:0.017113624373450875, test accuracy:0.9939134120941162
+DEBUG:root:cleaned masks -- test loss:0.014910110621713102, test accuracy:0.9941914677619934
+DEBUG:root:cleaned masks -- test loss:0.021045724162831903, test accuracy:0.9929301142692566
+DEBUG:root:cleaned masks -- test loss:0.021890585427172482, test accuracy:0.9911702275276184
+DEBUG:root:cleaned masks -- test loss:0.2543289326131344, test accuracy:0.8812425136566162
+DEBUG:root:0.0001 cleaned masks - ave_accuracy:0.9744675159454346
+DEBUG:root:augmented -- test loss:0.009635541529860348, test accuracy:0.99639892578125
+DEBUG:root:augmented -- test loss:0.010730422334745526, test accuracy:0.9961581826210022
+DEBUG:root:augmented -- test loss:0.020011764718219638, test accuracy:0.99212646484375
+DEBUG:root:augmented -- test loss:0.008817736234050244, test accuracy:0.9967617392539978
+DEBUG:root:augmented -- test loss:0.008651981072034687, test accuracy:0.9968058466911316
+DEBUG:root:augmented -- test loss:0.26539680548012257, test accuracy:0.8814765214920044
+DEBUG:root:0.0001 augmented intense - ave_accuracy:0.976621280113856
+DEBUG:root:augmented -- test loss:0.012307647033594549, test accuracy:0.9949781894683838
+DEBUG:root:augmented -- test loss:0.012558072980027646, test accuracy:0.9957478642463684
+DEBUG:root:augmented -- test loss:0.009007288259454072, test accuracy:0.9964023232460022
+DEBUG:root:augmented -- test loss:0.012960957130417228, test accuracy:0.9956156611442566
+DEBUG:root:augmented -- test loss:0.010155986878089607, test accuracy:0.9961649775505066
+DEBUG:root:augmented -- test loss:0.2636647932231426, test accuracy:0.8799879550933838
+DEBUG:root:0.0001 augmented mild - ave_accuracy:0.9764828284581503
+DEBUG:root:default model -- test loss:0.029664649511687458, test accuracy:0.98956298828125
+DEBUG:root:default model -- test loss:0.02828044514171779, test accuracy:0.9902377724647522
+DEBUG:root:default model -- test loss:0.037458536913618445, test accuracy:0.987396240234375
+DEBUG:root:default model -- test loss:0.04452680004760623, test accuracy:0.985260009765625
+DEBUG:root:default model -- test loss:0.03921581944450736, test accuracy:0.9867960810661316
+DEBUG:root:default model -- test loss:0.23042898625135422, test accuracy:0.9021267294883728
+DEBUG:root:1e-05 default model - ave_accuracy:0.9735633035500845
+DEBUG:root:cleaned masks -- test loss:0.03520711767487228, test accuracy:0.9895188808441162
+DEBUG:root:cleaned masks -- test loss:0.03222222160547972, test accuracy:0.9893696904182434
+DEBUG:root:cleaned masks -- test loss:0.05475480272434652, test accuracy:0.9828830361366272
+DEBUG:root:cleaned masks -- test loss:0.03199229494202882, test accuracy:0.9884304404258728
+DEBUG:root:cleaned masks -- test loss:0.032409014413133264, test accuracy:0.9880269169807434
+DEBUG:root:cleaned masks -- test loss:0.2545195259153843, test accuracy:0.88336181640625
+DEBUG:root:1e-05 cleaned masks - ave_accuracy:0.9702651302019755
+DEBUG:root:augmented -- test loss:0.013381689437665045, test accuracy:0.9956223964691162
+DEBUG:root:augmented -- test loss:0.008999523415695876, test accuracy:0.996429443359375
+DEBUG:root:augmented -- test loss:0.012074017082341015, test accuracy:0.9954291582107544
+DEBUG:root:augmented -- test loss:0.009375669586006552, test accuracy:0.9967007040977478
+DEBUG:root:augmented -- test loss:0.009157688822597265, test accuracy:0.9964158535003662
+DEBUG:root:augmented -- test loss:0.2973257414996624, test accuracy:0.8616841435432434
+DEBUG:root:1e-05 augmented intense - ave_accuracy:0.9737136165301005
+DEBUG:root:augmented -- test loss:0.016158005455508828, test accuracy:0.9947577714920044
+DEBUG:root:augmented -- test loss:0.012019646354019642, test accuracy:0.9954969882965088
+DEBUG:root:augmented -- test loss:0.00854607264045626, test accuracy:0.9965277910232544
+DEBUG:root:augmented -- test loss:0.011910890287254006, test accuracy:0.9951069951057434
+DEBUG:root:augmented -- test loss:0.011914651608094573, test accuracy:0.9957004189491272
+DEBUG:root:augmented -- test loss:0.2717283330857754, test accuracy:0.8757561445236206
+DEBUG:root:1e-05 augmented mild - ave_accuracy:0.9755576848983765
+DEBUG:root:default model -- test loss:0.07506459532305598, test accuracy:0.97698974609375
+DEBUG:root:default model -- test loss:0.0500154469627887, test accuracy:0.9831271767616272
+DEBUG:root:default model -- test loss:0.03432893776334822, test accuracy:0.9875285029411316
+DEBUG:root:default model -- test loss:0.052261037519201636, test accuracy:0.984222412109375
+DEBUG:root:default model -- test loss:0.050684452056884766, test accuracy:0.9837409257888794
+DEBUG:root:default model -- test loss:0.3112804628908634, test accuracy:0.8586188554763794
+DEBUG:root:1e-06 default model - ave_accuracy:0.9623712698618571
+DEBUG:root:cleaned masks -- test loss:0.05222001997753978, test accuracy:0.9819301962852478
+DEBUG:root:cleaned masks -- test loss:0.052814535330981016, test accuracy:0.9820590615272522
+DEBUG:root:cleaned masks -- test loss:0.046395117649808526, test accuracy:0.9841477870941162
+DEBUG:root:cleaned masks -- test loss:0.05147789465263486, test accuracy:0.9843682050704956
+DEBUG:root:cleaned masks -- test loss:0.050987858325242996, test accuracy:0.9818996787071228
+DEBUG:root:cleaned masks -- test loss:0.2744127158075571, test accuracy:0.8759528398513794
+DEBUG:root:1e-06 cleaned masks - ave_accuracy:0.965059628089269
+DEBUG:root:augmented -- test loss:0.010533885564655066, test accuracy:0.9958394169807434
+DEBUG:root:augmented -- test loss:0.012873844942077994, test accuracy:0.9947373867034912
+DEBUG:root:augmented -- test loss:0.01542461826466024, test accuracy:0.9937031865119934
+DEBUG:root:augmented -- test loss:0.0139194680377841, test accuracy:0.994476318359375
+DEBUG:root:augmented -- test loss:0.014926533214747906, test accuracy:0.9944865107536316
+DEBUG:root:augmented -- test loss:0.2370781321078539, test accuracy:0.8928493857383728
+DEBUG:root:1e-06 augmented intense - ave_accuracy:0.9776820341746012
+DEBUG:root:augmented -- test loss:0.012521004653535783, test accuracy:0.9948289394378662
+DEBUG:root:augmented -- test loss:0.012819195282645524, test accuracy:0.9947746992111206
+DEBUG:root:augmented -- test loss:0.012804062338545918, test accuracy:0.9948018193244934 #custon
+DEBUG:root:augmented -- test loss:0.01606559637002647, test accuracy:0.9935845136642456
+DEBUG:root:augmented -- test loss:0.018440576153807342, test accuracy:0.9930046796798706
+DEBUG:root:augmented -- test loss:0.2644519116729498, test accuracy:0.8842604160308838
+DEBUG:root:1e-06 augmented mild - ave_accuracy:0.9758758445580801
+DEBUG:root:default model -- test loss:0.018683375790715218, test accuracy:0.9929436445236206
+DEBUG:root:default model -- test loss:0.018404656555503607, test accuracy:0.9934183955192566
+DEBUG:root:default model -- test loss:0.02072638925164938, test accuracy:0.9921027421951294
+DEBUG:root:default model -- test loss:0.03469681984279305, test accuracy:0.9865858554840088
+DEBUG:root:default model -- test loss:0.02076643647160381, test accuracy:0.9926554560661316
+DEBUG:root:default model -- test loss:0.24102451652288437, test accuracy:0.8821682333946228
+DEBUG:root:5e-05 default model - ave_accuracy:0.9733123878637949
+DEBUG:root:cleaned masks -- test loss:0.028501522727310658, test accuracy:0.9902920126914978
+DEBUG:root:cleaned masks -- test loss:0.022965305717661977, test accuracy:0.9916178584098816
+DEBUG:root:cleaned masks -- test loss:0.018530553439632058, test accuracy:0.9925435185432434
+DEBUG:root:cleaned masks -- test loss:0.019665501546114683, test accuracy:0.9927639365196228
+DEBUG:root:cleaned masks -- test loss:0.020584064768627286, test accuracy:0.9928114414215088
+DEBUG:root:cleaned masks -- test loss:0.2629525922238827, test accuracy:0.8659226894378662
+DEBUG:root:5e-05 cleaned masks - ave_accuracy:0.9709919095039368
+DEBUG:root:augmented -- test loss:0.008453507267404348, test accuracy:0.9968940019607544
+DEBUG:root:augmented -- test loss:0.009644069010391831, test accuracy:0.9965583086013794
+DEBUG:root:augmented -- test loss:0.010245945362839848, test accuracy:0.9968973994255066
+DEBUG:root:augmented -- test loss:0.00895578385097906, test accuracy:0.9965447187423706
+DEBUG:root:augmented -- test loss:0.012214258254971355, test accuracy:0.9956122636795044
+DEBUG:root:augmented -- test loss:0.24331212043762207, test accuracy:0.8851487636566162
+DEBUG:root:5e-05 augmented intense - ave_accuracy:0.977942576011022
+DEBUG:root:augmented -- test loss:0.013122123782522976, test accuracy:0.9953410029411316
+DEBUG:root:augmented -- test loss:0.012019138142932206, test accuracy:0.9956800937652588
+DEBUG:root:augmented -- test loss:0.008084747998509556, test accuracy:0.9969990849494934
+DEBUG:root:augmented -- test loss:0.01071088237222284, test accuracy:0.9959445595741272
+DEBUG:root:augmented -- test loss:0.010020625835750252, test accuracy:0.9963921308517456
+DEBUG:root:augmented -- test loss:0.2465929463505745, test accuracy:0.8882310390472412
+DEBUG:root:5e-05 augmented mild - ave_accuracy:0.9780979851881663
+DEBUG:root:default model -- test loss:0.04241551086306572, test accuracy:0.9859856367111206
+DEBUG:root:default model -- test loss:0.044386677793227136, test accuracy:0.9843071699142456
+DEBUG:root:default model -- test loss:0.04510768153704703, test accuracy:0.986907958984375
+DEBUG:root:default model -- test loss:0.049790452234447, test accuracy:0.9845139980316162
+DEBUG:root:default model -- test loss:0.03651881171390414, test accuracy:0.9876267910003662
+DEBUG:root:default model -- test loss:0.27699886821210384, test accuracy:0.8733893632888794
+DEBUG:root:5e-06 default model - ave_accuracy:0.9671218196551005
+DEBUG:root:cleaned masks -- test loss:0.038940770318731666, test accuracy:0.9867587685585022
+DEBUG:root:cleaned masks -- test loss:0.03831145144067705, test accuracy:0.988525390625
+DEBUG:root:cleaned masks -- test loss:0.04180420539341867, test accuracy:0.9851345419883728
+DEBUG:root:cleaned masks -- test loss:0.04532469483092427, test accuracy:0.9861687421798706
+DEBUG:root:cleaned masks -- test loss:0.03392906044609845, test accuracy:0.9881388545036316
+DEBUG:root:cleaned masks -- test loss:0.287724195048213, test accuracy:0.8627793788909912
+DEBUG:root:5e-06 cleaned masks - ave_accuracy:0.9662509461243948
+DEBUG:root:augmented -- test loss:0.011955594178289175, test accuracy:0.9955478310585022
+DEBUG:root:augmented -- test loss:0.010685334098525345, test accuracy:0.9958835244178772
+DEBUG:root:augmented -- test loss:0.010401884908787906, test accuracy:0.9958699345588684
+DEBUG:root:augmented -- test loss:0.013532060605939478, test accuracy:0.9953681230545044
+DEBUG:root:augmented -- test loss:0.010110059229191393, test accuracy:0.9958733320236206
+DEBUG:root:augmented -- test loss:0.27483112178742886, test accuracy:0.8812357783317566
+DEBUG:root:5e-06 augmented intense - ave_accuracy:0.9766297539075216
+DEBUG:root:augmented -- test loss:0.013658641837537289, test accuracy:0.9944356083869934
+DEBUG:root:100
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/tensorflow/python/ops/nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+DEBUG:root:default model -- test loss:0.035889930091798306, test accuracy:0.9879963994026184
+DEBUG:root:default model -- test loss:0.029549530474469066, test accuracy:0.9894205927848816
+DEBUG:root:default model -- test loss:0.03989926120266318, test accuracy:0.9870774745941162
+DEBUG:root:100
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/tensorflow/python/ops/nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+DEBUG:root:default model -- test loss:0.029435548465698957, test accuracy:0.9893968105316162
+DEBUG:root:default model -- test loss:0.0428832471370697, test accuracy:0.9846089482307434
+DEBUG:root:default model -- test loss:0.04781627794727683, test accuracy:0.9837748408317566
+DEBUG:root:default model -- test loss:0.03426927654072642, test accuracy:0.9879963994026184
+DEBUG:root:default model -- test loss:0.03408956900238991, test accuracy:0.9885016679763794
+DEBUG:root:100
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/tensorflow/python/ops/nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+DEBUG:root:100
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/tensorflow/python/ops/nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/wesley/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+DEBUG:root:default model -- test loss:0.01585704053286463, test accuracy:0.9941270351409912
+DEBUG:root:default model -- test loss:0.01921091601252556, test accuracy:0.9933132529258728
+DEBUG:root:default model -- test loss:0.016597938840277493, test accuracy:0.9939643144607544
+DEBUG:root:default model -- test loss:0.019658657256513834, test accuracy:0.9930250644683838
+DEBUG:root:default model -- test loss:0.021626147907227278, test accuracy:0.9926927089691162
+DEBUG:root:default model -- test loss:0.017082614358514547, test accuracy:0.9938761591911316
+DEBUG:root:0.0001 default model - ave_accuracy:0.993499755859375
+DEBUG:root:cleaned masks -- test loss:0.023584407870657742, test accuracy:0.9912922978401184
+DEBUG:root:cleaned masks -- test loss:0.019890166469849646, test accuracy:0.9934489130973816
+DEBUG:root:cleaned masks -- test loss:0.02566180331632495, test accuracy:0.9912651777267456
+DEBUG:root:cleaned masks -- test loss:0.012686625472269952, test accuracy:0.9952426552772522
+DEBUG:root:cleaned masks -- test loss:0.02148598968051374, test accuracy:0.9923061728477478
+DEBUG:root:cleaned masks -- test loss:0.017188142868690193, test accuracy:0.993804931640625
+DEBUG:root:0.0001 cleaned masks - ave_accuracy:0.9928933580716451
+DEBUG:root:augmented -- test loss:0.009266744833439589, test accuracy:0.9965617060661316
+DEBUG:root:augmented -- test loss:0.009229582385160029, test accuracy:0.9969753623008728
+DEBUG:root:augmented -- test loss:0.009322394093032926, test accuracy:0.9966227412223816
+DEBUG:root:augmented -- test loss:0.008221833501011133, test accuracy:0.9970703125
+DEBUG:root:augmented -- test loss:0.010020449000876397, test accuracy:0.9966837763786316
+DEBUG:root:augmented -- test loss:0.011389676481485367, test accuracy:0.996246337890625
+DEBUG:root:0.0001 augmented intense - ave_accuracy:0.9966933727264404
+DEBUG:root:augmented -- test loss:0.008263754716608673, test accuracy:0.9970533847808838
+DEBUG:root:augmented -- test loss:0.007944595767185092, test accuracy:0.9970737099647522
+DEBUG:root:augmented -- test loss:0.022340796829666942, test accuracy:0.9946967363357544
+DEBUG:root:augmented -- test loss:0.013427456957288086, test accuracy:0.9953511357307434
+DEBUG:root:augmented -- test loss:0.010479799297172576, test accuracy:0.9960666298866272
+DEBUG:root:augmented -- test loss:0.00956613925518468, test accuracy:0.9964396357536316
+DEBUG:root:0.0001 augmented mild - ave_accuracy:0.9961135387420654
+DEBUG:root:default model -- test loss:0.03851718921214342, test accuracy:0.9887797236442566
+DEBUG:root:default model -- test loss:0.04110519425012171, test accuracy:0.9858432412147522
+DEBUG:root:default model -- test loss:0.03349243104457855, test accuracy:0.9890272617340088
+DEBUG:root:default model -- test loss:0.03699295502156019, test accuracy:0.9865044355392456
+DEBUG:root:default model -- test loss:0.04251625877805054, test accuracy:0.9865349531173706
+DEBUG:root:default model -- test loss:0.029058511718176305, test accuracy:0.9907870888710022
+DEBUG:root:1e-05 default model - ave_accuracy:0.987912784020106
+DEBUG:root:cleaned masks -- test loss:0.03095951280556619, test accuracy:0.9903462529182434
+DEBUG:root:cleaned masks -- test loss:0.036689000902697444, test accuracy:0.9881659746170044
+DEBUG:root:cleaned masks -- test loss:0.04707921389490366, test accuracy:0.9840155839920044
+DEBUG:root:cleaned masks -- test loss:0.04037756682373583, test accuracy:0.9885355830192566
+DEBUG:root:cleaned masks -- test loss:0.03911934816278517, test accuracy:0.9867926836013794
+DEBUG:root:cleaned masks -- test loss:0.029252494568936527, test accuracy:0.9905022382736206
+DEBUG:root:1e-05 cleaned masks - ave_accuracy:0.9880597194035848
+DEBUG:root:augmented -- test loss:0.012608595658093691, test accuracy:0.9947950839996338
+DEBUG:root:augmented -- test loss:0.010766980471089482, test accuracy:0.9966667890548706
+DEBUG:root:augmented -- test loss:0.009448865603189915, test accuracy:0.9964023232460022
+DEBUG:root:augmented -- test loss:0.012085944588761777, test accuracy:0.9960429072380066
+DEBUG:root:augmented -- test loss:0.009887228952720761, test accuracy:0.9965617060661316
+DEBUG:root:augmented -- test loss:0.008660158317070454, test accuracy:0.9967617392539978
+DEBUG:root:1e-05 augmented intense - ave_accuracy:0.9962050914764404
+DEBUG:root:augmented -- test loss:0.01231748762074858, test accuracy:0.9958631992340088
+DEBUG:root:augmented -- test loss:0.00919960078317672, test accuracy:0.9961717128753662
+DEBUG:root:augmented -- test loss:0.011282452498562634, test accuracy:0.9953715205192566
+DEBUG:root:augmented -- test loss:0.013249283074401319, test accuracy:0.9951273798942566
+DEBUG:root:augmented -- test loss:0.011590943264309317, test accuracy:0.9959377646446228
+DEBUG:root:augmented -- test loss:0.013814365840516984, test accuracy:0.9942118525505066
+DEBUG:root:1e-05 augmented mild - ave_accuracy:0.9954472382863363
+DEBUG:root:default model -- test loss:0.04885012470185757, test accuracy:0.9852328896522522
+DEBUG:root:default model -- test loss:0.03892551176249981, test accuracy:0.9863722324371338
+DEBUG:root:default model -- test loss:0.05371229909360409, test accuracy:0.9821200966835022
+DEBUG:root:default model -- test loss:0.0566043930593878, test accuracy:0.9815232753753662
+DEBUG:root:default model -- test loss:0.04066814435645938, test accuracy:0.9862229824066162
+DEBUG:root:default model -- test loss:0.05634862114675343, test accuracy:0.9821574091911316
+DEBUG:root:1e-06 default model - ave_accuracy:0.9839381476243337
+DEBUG:root:cleaned masks -- test loss:0.04596387525089085, test accuracy:0.9843173623085022
+DEBUG:root:cleaned masks -- test loss:0.060215790290385485, test accuracy:0.982940673828125
+DEBUG:root:cleaned masks -- test loss:0.04790182667784393, test accuracy:0.9838528037071228
+DEBUG:root:cleaned masks -- test loss:0.05947013106197119, test accuracy:0.9804755449295044
+DEBUG:root:cleaned masks -- test loss:0.04712585615925491, test accuracy:0.9839884638786316
+DEBUG:root:cleaned masks -- test loss:0.04732974153012037, test accuracy:0.9848598837852478
+DEBUG:root:1e-06 cleaned masks - ave_accuracy:0.9834057887395223
+DEBUG:root:augmented -- test loss:0.011541289393790066, test accuracy:0.9951002597808838
+DEBUG:root:augmented -- test loss:0.013278627302497625, test accuracy:0.9950290322303772
+DEBUG:root:augmented -- test loss:0.01700556557625532, test accuracy:0.9935641884803772
+DEBUG:root:augmented -- test loss:0.013908547582104802, test accuracy:0.9947035312652588
+DEBUG:root:augmented -- test loss:0.011709822400007397, test accuracy:0.9951918125152588
+DEBUG:root:augmented -- test loss:0.012323219561949372, test accuracy:0.9949544072151184
+DEBUG:root:1e-06 augmented intense - ave_accuracy:0.994757205247879
+DEBUG:root:augmented -- test loss:0.013895400101318955, test accuracy:0.9948594570159912
+DEBUG:root:augmented -- test loss:0.012400649837218225, test accuracy:0.9948493242263794
+DEBUG:root:augmented -- test loss:0.015161667601205409, test accuracy:0.99365234375
+DEBUG:root:augmented -- test loss:0.01796511746942997, test accuracy:0.9930419921875
+DEBUG:root:augmented -- test loss:0.015701644937507808, test accuracy:0.9939337968826294
+DEBUG:root:augmented -- test loss:0.015267284121364355, test accuracy:0.9939677119255066
+DEBUG:root:1e-06 augmented mild - ave_accuracy:0.9940507709980011
+DEBUG:root:default model -- test loss:0.02679993654601276, test accuracy:0.9909430742263794
+DEBUG:root:default model -- test loss:0.019775037188082933, test accuracy:0.9936794638633728
+DEBUG:root:default model -- test loss:0.023242025170475245, test accuracy:0.9923231601715088
+DEBUG:root:default model -- test loss:0.02413676562719047, test accuracy:0.9908955693244934
+DEBUG:root:default model -- test loss:0.03166031779255718, test accuracy:0.9891933798789978
+DEBUG:root:default model -- test loss:0.022966909455135465, test accuracy:0.992706298828125
+DEBUG:root:5e-05 default model - ave_accuracy:0.9916234910488129
+DEBUG:root:cleaned masks -- test loss:0.03350452659651637, test accuracy:0.9885694980621338
+DEBUG:root:cleaned masks -- test loss:0.030446669086813927, test accuracy:0.9922519326210022
+DEBUG:root:cleaned masks -- test loss:0.02355003554839641, test accuracy:0.9919535517692566
+DEBUG:root:cleaned masks -- test loss:0.018349021207541227, test accuracy:0.9931267499923706
+DEBUG:root:cleaned masks -- test loss:0.025937024038285017, test accuracy:0.9920077919960022
+DEBUG:root:cleaned masks -- test loss:0.023371351417154074, test accuracy:0.9918857216835022
+DEBUG:root:5e-05 cleaned masks - ave_accuracy:0.9916325410207113
+DEBUG:root:augmented -- test loss:0.009184037451632321, test accuracy:0.9974026083946228
+DEBUG:root:augmented -- test loss:0.00852962548378855, test accuracy:0.9967448115348816
+DEBUG:root:augmented -- test loss:0.012266874255146831, test accuracy:0.9961140751838684
+DEBUG:root:augmented -- test loss:0.009275307587813586, test accuracy:0.9965854287147522
+DEBUG:root:augmented -- test loss:0.00888205150840804, test accuracy:0.996917724609375
+DEBUG:root:augmented -- test loss:0.008961867133621126, test accuracy:0.9967414140701294
+DEBUG:root:5e-05 augmented intense - ave_accuracy:0.9967510104179382
+DEBUG:root:augmented -- test loss:0.007489965239074081, test accuracy:0.9970974326133728
+DEBUG:root:augmented -- test loss:0.009509706287644804, test accuracy:0.9965989589691162
+DEBUG:root:augmented -- test loss:0.010175043891649693, test accuracy:0.9966091513633728
+DEBUG:root:augmented -- test loss:0.013148123980499804, test accuracy:0.9960293173789978
+DEBUG:root:augmented -- test loss:0.00931775034405291, test accuracy:0.9964023232460022
+DEBUG:root:augmented -- test loss:0.009589590248651803, test accuracy:0.9964735507965088
+DEBUG:root:5e-05 augmented mild - ave_accuracy:0.9965351223945618
+DEBUG:root:default model -- test loss:0.037502437829971313, test accuracy:0.9873046875
+DEBUG:root:default model -- test loss:0.040370070142671466, test accuracy:0.9871046543121338
+DEBUG:root:default model -- test loss:0.05119302636012435, test accuracy:0.9842529296875
+DEBUG:root:default model -- test loss:0.05098881362937391, test accuracy:0.9852769374847412
+DEBUG:root:default model -- test loss:0.03911003493703902, test accuracy:0.9864434003829956
+DEBUG:root:default model -- test loss:0.03754311543889344, test accuracy:0.9892171025276184
+DEBUG:root:5e-06 default model - ave_accuracy:0.9865999519824982
+DEBUG:root:cleaned masks -- test loss:0.04481850238516927, test accuracy:0.9865485429763794
+DEBUG:root:cleaned masks -- test loss:0.04152563400566578, test accuracy:0.9881083369255066
+DEBUG:root:cleaned masks -- test loss:0.045012916438281536, test accuracy:0.9871113896369934
+DEBUG:root:cleaned masks -- test loss:0.04544824827462435, test accuracy:0.98504638671875
+DEBUG:root:cleaned masks -- test loss:0.05691330600529909, test accuracy:0.9824931025505066
+DEBUG:root:cleaned masks -- test loss:0.03407736332155764, test accuracy:0.9894002079963684
+DEBUG:root:5e-06 cleaned masks - ave_accuracy:0.9864513278007507
+DEBUG:root:augmented -- test loss:0.009454826242290437, test accuracy:0.9965786337852478
+DEBUG:root:augmented -- test loss:0.011864245927426964, test accuracy:0.9955817461013794
+DEBUG:root:augmented -- test loss:0.012464355793781579, test accuracy:0.9955613613128662
+DEBUG:root:augmented -- test loss:0.010219806397799402, test accuracy:0.996337890625
+DEBUG:root:augmented -- test loss:0.009735000436194241, test accuracy:0.9964125156402588
+DEBUG:root:augmented -- test loss:0.010893275728449225, test accuracy:0.9958530068397522
+DEBUG:root:5e-06 augmented intense - ave_accuracy:0.9960541923840841
+DEBUG:root:augmented -- test loss:0.012626819196157157, test accuracy:0.9957987666130066
+DEBUG:root:augmented -- test loss:0.009503240697085857, test accuracy:0.9961615800857544
+DEBUG:root:augmented -- test loss:0.012497280491515994, test accuracy:0.9950493574142456
+DEBUG:root:augmented -- test loss:0.013915633666329086, test accuracy:0.9948357343673706
+DEBUG:root:augmented -- test loss:0.014607267454266548, test accuracy:0.99456787109375
+DEBUG:root:augmented -- test loss:0.013310627546161413, test accuracy:0.9945644736289978
+DEBUG:root:5e-06 augmented mild - ave_accuracy:0.9951629638671875
+DEBUG:root:default model -- test loss:0.012577056244481355, test accuracy:0.995758056640625
+DEBUG:root:default model -- test loss:0.01331615960225463, test accuracy:0.9946221113204956
+DEBUG:root:default model -- test loss:0.024209431721828878, test accuracy:0.9910041093826294
+DEBUG:root:default model -- test loss:0.01613643066957593, test accuracy:0.9948188066482544
+DEBUG:root:default model -- test loss:0.01379582769004628, test accuracy:0.9942253828048706
+DEBUG:root:default model -- test loss:0.012493793619796634, test accuracy:0.9949544072151184
+DEBUG:root:0.0005 default model - ave_accuracy:0.9942304790019989
+DEBUG:root:cleaned masks -- test loss:0.015073932008817792, test accuracy:0.99395751953125
+DEBUG:root:cleaned masks -- test loss:0.031293087638914585, test accuracy:0.9926384687423706
+DEBUG:root:cleaned masks -- test loss:0.011213818623218685, test accuracy:0.9955003261566162
+DEBUG:root:cleaned masks -- test loss:0.016202883212827146, test accuracy:0.99481201171875
+DEBUG:root:cleaned masks -- test loss:0.01400071068201214, test accuracy:0.9946424961090088
+DEBUG:root:cleaned masks -- test loss:0.01637080719228834, test accuracy:0.9950527548789978
+DEBUG:root:0.0005 cleaned masks - ave_accuracy:0.9944339295228323
+DEBUG:root:augmented -- test loss:0.017516697756946087, test accuracy:0.9936048984527588
+DEBUG:root:augmented -- test loss:0.03397457202663645, test accuracy:0.9880913496017456
+DEBUG:root:augmented -- test loss:0.01678026234731078, test accuracy:0.9952663779258728
+DEBUG:root:augmented -- test loss:0.008928917814046144, test accuracy:0.9970194697380066
+DEBUG:root:augmented -- test loss:0.010828011902049184, test accuracy:0.9961581826210022
+DEBUG:root:augmented -- test loss:0.015094732749275863, test accuracy:0.9950798749923706
+DEBUG:root:0.0005 augmented intense - ave_accuracy:0.9942033588886261
+DEBUG:root:augmented -- test loss:0.01063735136995092, test accuracy:0.9959004521369934
+DEBUG:root:augmented -- test loss:0.00922287325374782, test accuracy:0.9966939091682434
+DEBUG:root:augmented -- test loss:0.03803164034616202, test accuracy:0.9903462529182434
+DEBUG:root:augmented -- test loss:0.014618139830417931, test accuracy:0.99432373046875
+DEBUG:root:augmented -- test loss:0.027424108237028122, test accuracy:0.9934556484222412
+DEBUG:root:augmented -- test loss:0.00943799939705059, test accuracy:0.9967278242111206
+DEBUG:root:0.0005 augmented mild - ave_accuracy:0.994574636220932
