@@ -15,7 +15,7 @@ imgs = np.array([cv2.resize(cv2.resize(as_float(imageio.imread(ipath)), None, fx
 msks = np.array([as_float(imageio.imread(mpath)) for _, mpath in path_pairs])
 
 model = UNet(imgs[0])
-#model_checkpoint = ModelCheckpoint('unet.hdf5', monitor='loss',verbose=1, save_best_only=True)
+#Display learned features from best checkpoint
 model.UNet.load_weights("unet.hdf5")
 filters, biases = model.UNet.layers[1].get_weights()
 fig = plt.figure(figsize=(5,10))

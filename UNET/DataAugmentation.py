@@ -21,7 +21,7 @@ def ImportMask(mask):
     img = m.opening(img, m.disk(10)) #fix noise in background
     return img
 
-def K_fold(images, masks, k):
+def K_fold(images, masks, k): #Seperate data into k folds
     length = images.shape[0]
     indices = np.arange(length)
     np.random.shuffle(indices)
@@ -32,7 +32,10 @@ def K_fold(images, masks, k):
     maskFolds = [ma[i*num_folds:(i+1)*num_folds] for i in range(k)]
     return imageFolds, maskFolds
 
-def trainGenerator(trainImages,trainMasks,aug_dict,batch_size=2,seed = 1):
+def trainGenerator(trainImages,trainMasks,aug_dict,batch_size=2,seed = 1): 
+    '''
+    Augment data into training generator
+    '''
     image_datagen = ImageDataGenerator(**aug_dict)
     mask_datagen = ImageDataGenerator(**aug_dict)
     image_datagen.fit(trainImages, augment=True, seed=seed)

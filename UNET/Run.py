@@ -26,6 +26,7 @@ def validateModel(images,masks,name,learning_rate=1e-4):
     total_scores = []
     for i in range(6):
         model = UNet(imgs[0], learning_rate)
+        #rotation of folds
         if i+1 < 6:
             if i+2 < 6:
                 trainingImages = np.array(imageFolds[:i] + imageFolds[i+2:]).reshape(-1, 192, 192, 3)
@@ -46,7 +47,7 @@ def validateModel(images,masks,name,learning_rate=1e-4):
             validationMasks = np.array(maskFolds[0]).reshape(-1, 192, 192, 1)
             trainingMasks = np.array(maskFolds[1:i]).reshape(-1, 192, 192, 1)
         testMasks = np.array(maskFolds[i]).reshape(-1, 192, 192, 1)
-
+        #train model
         model_checkpoint = ModelCheckpoint('unet.hdf5', monitor='val_loss',verbose=1, save_best_only=True)
         es = EarlyStopping(monitor='val_loss', mode='min', patience=50, verbose=1)
         model.UNet.fit(trainingImages, trainingMasks, validation_data=(validationImages, validationMasks), batch_size=2, epochs=200,verbose=1, shuffle=True, callbacks=[model_checkpoint, es]) #WandbCallback()
@@ -59,7 +60,7 @@ def validateModel(images,masks,name,learning_rate=1e-4):
         score = roc_auc_score(ypred.flatten(), testMasks.flatten())
         total_scores.append(score)
         logging.debug(name + " -- test loss:" + str(results[0]) + ", test accuracy:" + str(results[1]))
-        del model.UNet #  for avoid any trace on aigen
+        del model.UNet # avoid any trace of model
         del model
         tf.compat.v1.reset_default_graph() # for being sure
         clear_session() # removing session, it will instance another
@@ -75,6 +76,7 @@ def validateModelAugmentation(images,masks,aug_list, name, learning_rate=1e-4):
     total_scores = []
     for i in range(6):
         model = UNet(imgs[0], learning_rate)
+        #rotation of folds
         if i+1 < 6:
             if i+2 < 6:
                 trainingImages = np.array(imageFolds[:i] + imageFolds[i+2:]).reshape(-1, 192, 192, 3)
@@ -95,6 +97,7 @@ def validateModelAugmentation(images,masks,aug_list, name, learning_rate=1e-4):
             validationMasks = np.array(maskFolds[0]).reshape(-1, 192, 192, 1)
             trainingMasks = np.array(maskFolds[1:i]).reshape(-1, 192, 192, 1)
         testMasks = np.array(maskFolds[i]).reshape(-1, 192, 192, 1)
+        #train model
         model_checkpoint = ModelCheckpoint('unet.hdf5', monitor='val_loss',verbose=1, save_best_only=True)
         es = EarlyStopping(monitor='val_loss', mode='min', patience=50, verbose=1)
         training_gen = trainGenerator(trainingImages,trainingMasks,aug_list)
@@ -109,12 +112,13 @@ def validateModelAugmentation(images,masks,aug_list, name, learning_rate=1e-4):
         total_scores.append(score)
         accuracies.append(results[1])
         logging.debug("augmented -- test loss:" + str(results[0]) + ", test accuracy:" + str(results[1]))
-        del model.UNet #  for avoid any trace on model
+        del model.UNet # avoid any trace on model
         del model
         tf.compat.v1.reset_default_graph() # for being sure
         clear_session() # removing session, it will instance another
     logging.debug(str(learning_rate) + " augmented " + name + " - ave_accuracy:" + str(np.mean(accuracies)) + " - ROC " + str(np.mean(total_scores)))
 
+#Rigirous augmentation
 data_dict = dict(rotation_range=45,
                 width_shift_range=0.2,
                 height_shift_range=0.2,
@@ -124,6 +128,7 @@ data_dict = dict(rotation_range=45,
                 zoom_range=0.2, 
                 fill_mode="nearest")
 
+#medium augmentation
 data_dict2 = dict(rotation_range=20,
                 width_shift_range=0.1,
                 height_shift_range=0.1,
@@ -133,6 +138,7 @@ data_dict2 = dict(rotation_range=20,
                 zoom_range=0.1, 
                 fill_mode="nearest")
 
+#Run tests on learning rates
 learning_rates = [1e-4, 1e-5, 1e-6, 5e-5, 5e-6, 5e-4]
 for i in range(len(learning_rates)):
     validateModel(imgs,msks, "default model", learning_rates[i]) #default model

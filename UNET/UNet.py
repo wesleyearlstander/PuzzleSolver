@@ -11,8 +11,8 @@ from tensorflow.keras.backend import clear_session
 
 from tensorflow.compat.v1 import ConfigProto
 from tensorflow.compat.v1 import InteractiveSession
-#from tensorflow import ConfigProto
-#from tensorflow import InteractiveSession
+
+#Setup tensorflow with GPU
 config = ConfigProto()
 config.gpu_options.per_process_gpu_memory_fraction = 0.9
 config.gpu_options.allow_growth = True
@@ -20,6 +20,9 @@ session = InteractiveSession(config=config)
 
 
 class UNet:
+    '''
+    UNet extending VGG16 using keras
+    '''
     def __init__(self,img, learning_rate = 1e-4):
         img = np.array(img)
         self.input = Input(shape=(img.shape[0], img.shape[1], img.shape[2]))
@@ -30,7 +33,7 @@ class UNet:
         self.c3 = self.vgg16.get_layer("block3_conv3").output  
         self.c4 = self.vgg16.get_layer("block4_conv3").output 
         self.c5 = self.vgg16.get_layer("block5_conv3").output
-        self.c6 = self.AddUpsampleLayer(self.c5, self.c4, 512, True) #learning filters better than designing (injecting bias)
+        self.c6 = self.AddUpsampleLayer(self.c5, self.c4, 512, True) 
         self.c7 = self.AddUpsampleLayer(self.c6, self.c3, 256, True)
         self.c8 = self.AddUpsampleLayer(self.c7, self.c2, 128)
         self.c9 = self.AddUpsampleLayer(self.c8, self.c1, 64)
